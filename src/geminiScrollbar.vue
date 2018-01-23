@@ -27,10 +27,6 @@ export default {
       type: Boolean,
       default: false
     },
-    createElements: {
-      type: Boolean,
-      default: false
-    },
     forceGemini: {
       type: Boolean,
       default: false
@@ -43,6 +39,7 @@ export default {
   mounted () {
     geminiScrollbar = new GeminiScrollbar({
       element: this.$refs.geminiScrollbar,
+      createElements: false,
       onResize: () => {
         this.$emit('resize')
       },
