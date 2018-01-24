@@ -107,7 +107,7 @@ Vue.use(GeminiScrollbar)
 
 ## 如何为body设置自定义滚动条
 
-因为vue组件的根元素不能为body，此时可以从Vue.$GeminiScrollbar访问到GeminiScrollbar对象，然后你就可以自由使用它了（文档请参考：[gemini-scrollbar](https://github.com/noeldelgado/gemini-scrollbar)）。
+因为vue组件的根元素不能为body，此时可以从Vue.$geminiScrollbar访问到GeminiScrollbar对象，然后你就可以自由使用它了（文档请参考：[gemini-scrollbar](https://github.com/noeldelgado/gemini-scrollbar)）。
 
 ```css
 html {
@@ -118,7 +118,7 @@ html {
 ```
 
 ```javascript
-var scrollbar = new Vue.$GeminiScrollbar({
+var scrollbar = new Vue.$geminiScrollbar({
     element: document.body
 }).create();
 ```
