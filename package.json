@@ -1,7 +1,7 @@
 {
   "name": "vue-gemini-scrollbar",
   "description": "Vue component for custom scrollbars with native scrolling",
-  "version": "1.6.0",
+  "version": "2.0.0",
   "author": "lixin <lixin544@163.com>",
   "license": "MIT",
   "private": false,
