@@ -27,6 +27,7 @@ npm run build
 ```
 
 ## Attributes
+
 参数 | 类型 | 默认值 | 说明
 ---|---|---|---|---
 autoCreate | Boolean | true | 自动创建自定义滚动条 
