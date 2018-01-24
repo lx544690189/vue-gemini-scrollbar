@@ -48,7 +48,7 @@ export default {
     if (this.autoCreate) {
       geminiScrollbar.create()
     }
-    this.$emit('create', geminiScrollbar)
+    this.$emit('ready', geminiScrollbar)
   },
   updated () {
     geminiScrollbar.update()
