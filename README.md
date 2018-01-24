@@ -2,7 +2,6 @@
 [![license](https://img.shields.io/github/license/mashape/apistatus.svg)](https://github.com/lx544690189/vue-gemini-scrollbar)
 [![Travis](https://img.shields.io/travis/rust-lang/rust.svg)](https://lx544690189.github.io/vue-gemini-scrollbar/)
 ![Vue 2.x](https://img.shields.io/badge/vue-2.x-green.svg "Vue 2 Compatible")
-[![npm](https://img.shields.io/npm/dm/localeval.svg)](https://github.com/lx544690189/vue-gemini-scrollbar)
 
 [![NPM](https://nodei.co/npm/vue-gemini-scrollbar.png?downloads=true&downloadRank=true)](https://www.npmjs.com/package/vue-gemini-scrollbar)
 
