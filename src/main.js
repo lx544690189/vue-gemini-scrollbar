@@ -11,4 +11,4 @@ if (typeof window !== 'undefined' && window.Vue) {
   window.Vue.prototype.$geminiScrollbar = window.Vue.$geminiScrollbar = GS
 }
 
-module.exports = GeminiScrollbar
+export default GeminiScrollbar

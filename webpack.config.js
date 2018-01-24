@@ -6,7 +6,10 @@ module.exports = {
   output: {
     path: path.resolve(__dirname, './dist'),
     publicPath: '/dist/',
-    filename: 'vue-gemini-scrollbar.js'
+    filename: 'vue-gemini-scrollbar.js',
+    library: 'GeminiScrollbar',
+    libraryTarget: 'umd',
+    umdNamedDefine: true
   },
   module: {
     rules: [
