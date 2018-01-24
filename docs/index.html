@@ -20,7 +20,7 @@
 
     header {
       text-align: center;
-	  padding: 20px 0;
+      padding: 20px 0;
       font-weight: bold;
     }
 
@@ -34,6 +34,7 @@
     }
 
     code {
+      font-family: 'Inconsolata', Monaco, Consolas, 'Andale Mono', monospace;
       border: solid 1px rgba(51, 51, 51, 0.12);
       background: #f5f2f0;
       padding: 15px 20px;
@@ -80,12 +81,12 @@
       margin-right: 0;
     }
 
-    ul.demo>li>img {
+    ul.demo>li>a>img {
       width: 100%;
       height: 250px;
     }
 
-    ul.demo>li>.title {
+    ul.demo>li>a>.title {
       text-align: center;
       margin: 10px 0;
     }
@@ -101,31 +102,42 @@
     <code>npm install vue-gemini-scrollbar --save</code>
   </section>
   <section>
-    <p>All demos were rewrite by vue from
-      <a href="https://github.com/noeldelgado/gemini-scrollbar">gemini-scrollbar</a>
+    <p>All demos were rewrite by
+      <a href="https://github.com/lx544690189/vue-gemini-scrollbar">vue-gemini-scrollbar</a> from
+      <a href="https://github.com/noeldelgado/gemini-scrollbar">gemini-scrollbar/examples</a>
     </p>
   </section>
   <section>
     <ul class="demo">
       <li>
-        <img src="imgs/demo-sidebar.png" alt="sidebar">
-        <div class="title">sidebar</div>
+        <a href="./demo/00-sidebar.html">
+          <img src="imgs/demo-sidebar.png" alt="sidebar">
+          <div class="title">sidebar</div>
+        </a>
       </li>
       <li>
-        <img src="imgs/demo-body.png" alt="sidebar">
-        <div class="title">body</div>
+        <a href="./demo/01-body.html">
+          <img src="imgs/demo-body.png" alt="sidebar">
+          <div class="title">body</div>
+        </a>
       </li>
       <li>
-        <img src="imgs/demo-grid.png" alt="sidebar">
-        <div class="title">grid</div>
+        <a href="./demo/03-grid.html">
+          <img src="imgs/demo-grid.png" alt="sidebar">
+          <div class="title">grid</div>
+        </a>
       </li>
       <li>
-        <img src="imgs/demo-random-tests.png" alt="sidebar">
-        <div class="title">random</div>
+        <a href="./demo/04-random-tests.html">
+          <img src="imgs/demo-random-tests.png" alt="sidebar">
+          <div class="title">random</div>
+        </a>
       </li>
       <li>
-        <img src="imgs/demo-destroy.png" alt="sidebar">
-        <div class="title">destroy</div>
+        <a href="./demo/05-destroy.html">
+          <img src="imgs/demo-destroy.png" alt="sidebar">
+          <div class="title">destroy</div>
+        </a>
       </li>
     </ul>
   </section>
