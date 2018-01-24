@@ -29,7 +29,7 @@ npm run build
 ## Attributes
 
 参数 | 类型 | 默认值 | 说明
----|---|---|---|---
+---|---|---|---
 autoCreate | Boolean | true | 自动创建自定义滚动条 
 autoshow | Boolean | false | hover时才显示滚动条
 forceGemini | Boolean | false | 原生滚动条可见的情况下，强制显示自定义滚动条（开发时会比较有用）
