@@ -5,6 +5,15 @@
   "author": "lixin <lixin544@163.com>",
   "license": "MIT",
   "private": false,
+  "keywords": [
+    "vue",
+    "scrollbars",
+    "scrollbar",
+    "native",
+    "scrolling",
+    "custom"
+  ],
+  "main": "dist/vue-gemini-scrollbar.js",
   "repository": {
     "type": "git",
     "url": "https://github.com/lx544690189/vue-gemini-scrollbar"
