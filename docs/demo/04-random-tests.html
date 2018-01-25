@@ -178,7 +178,7 @@
       </div>
     </gemini-scrollbar>
 
-    <gemini-scrollbar id="example-3" class="inline">
+    <gemini-scrollbar id="example-3" class="inline" @ready="example_3_ready">
       <div class="example-content">
         <header>
           <h1>#3 Vertical Scrollbar</h1>
@@ -186,7 +186,7 @@
         <section>
           <h2>(update method)</h2>
           <h3>Lorem ipsum dolor sit amet, consectetur adipisicing elit.</h3>
-          <img src="./assets/images/huge-reddit-visual-exploration.png" alt="">
+          <img @load="imgLoad" src="./assets/images/huge-reddit-visual-exploration.png" alt="">
           <img src="./assets/images/huge-reddit-visual-exploration.png" alt="">
           <img src="./assets/images/huge-reddit-visual-exploration.png" alt="">
           <img src="./assets/images/huge-reddit-visual-exploration.png" alt="">
@@ -273,7 +273,18 @@
   <script src="../js/vue-gemini-scrollbar.js" type="text/javascript"></script>
   <script>
     new Vue({
-      el: '#app'
+      el: '#app',
+      data:{
+        geminiScrollbar:null
+      },
+      methods:{
+        imgLoad:function(){
+          this.geminiScrollbar.update()
+        },
+        example_3_ready(geminiScrollbar){
+          this.geminiScrollbar = geminiScrollbar
+        }
+      }
     })
   </script>
 </body>
