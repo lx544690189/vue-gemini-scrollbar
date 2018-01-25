@@ -42,7 +42,7 @@ createElements参数在这里被强制置为false，不可配置，因为启用�
 
 事件名称 | 回调参数 | 说明
 ---|---|---
-ready | geminiScrollbar | GeminiScrollbar实例创建
+ready | geminiScrollbar实例 | GeminiScrollbar实例创建
 resize | - | 滚动区域大小调整时触发
 
 ## Methods
@@ -51,8 +51,10 @@ resize | - | 滚动区域大小调整时触发
 方法名称 | 说明
 ---|---
 create | 创建滚动区域
-update | 重新计算滚动区域大小（一般不需要你这么做，如果发现滚动区域大小变化导致显示不正常，可以尝试调用它）
+update | 重新计算滚动区域大小（vue可以监听并触发组件updated的时候，都不需要你手动去调用它；但是像图片资源的load导致高度变化，你需要在合适的时候去手动调用；）
 destroy | 移除绑定事件及滚动条元素
+**如何调用：**
+监听ready事件，通过回调函数的参数geminiScrollbar实例来调用这些方法
 
 ## 使用
 
