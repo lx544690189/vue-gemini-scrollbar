@@ -10,9 +10,11 @@
 <img src="https://raw.githubusercontent.com/lx544690189/vue-gemini-scrollbar/master/screenshot/screenshot.png" width="400"/>
 
 ## 介绍
+无需配置横向或纵向滚动，自定义滚动条完全按照原生的方式去显示（也就是如果区域存在纵向滚动条，使用它后将替换纵向滚动条）。正因为如此，请不要使用::-webkit-scrollbar来修饰原生滚动条，这样会影响对滚动条宽度的检测。
 - 基于[gemini-scrollbar](https://github.com/noeldelgado/gemini-scrollbar)封装的vue组件
 - 基于原生滚动的自定义滚动条
 - 支持IE9+
+
 
 ## 安装
 
