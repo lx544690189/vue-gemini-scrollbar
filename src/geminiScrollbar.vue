@@ -51,7 +51,9 @@ export default {
     this.$emit('ready', geminiScrollbar)
   },
   updated () {
-    geminiScrollbar.update()
+    if (geminiScrollbar) {
+      geminiScrollbar.update()
+    }
   },
   beforeDestroy () {
     if (geminiScrollbar) {
