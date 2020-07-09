@@ -127,7 +127,18 @@ var scrollbar = new Vue.$geminiScrollbar({
     element: document.body
 }).create();
 ```
+vueJS 脚手架中这样调用
+```vue
+this.$nextTick(() => {
+  new this.$geminiScrollbar({
+    element: document.body
+  }).create();
+})
+```
+
+
 
 ## 其他实现
+
 - [gemini-scrollbar](https://github.com/noeldelgado/gemini-scrollbar)（原生js）
 - [react-gemini-scrollbar](https://github.com/noeldelgado/react-gemini-scrollbar)（react）
